@@ -29,7 +29,7 @@ if (options.hasOwnProperty('port')) {
 
 var state = function (message) {
     console.log('-----: ' + message);
-    console.log(model);
+    console.log(JSON.stringify(model));
 };
 
 process.stdin.setEncoding('utf8');
