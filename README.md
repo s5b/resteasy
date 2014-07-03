@@ -39,6 +39,6 @@ From the results of the previous request you can refine the URL to retrieve spec
 
 ### Modifying data
 
-You can also use curl to modify the model using ```PUT``` to change existing values, and ```POST``` to create new values. For example, to change the name of advertiser with id "17":
+You can also use ```curl``` to modify the model using ```PUT``` to change existing values, and ```POST``` to create new values. For example, to change the name of advertiser with id "17":
 
     curl -X PUT --data "\"Symmetry Investments\"" localhost:5656/advertisers/17/name
