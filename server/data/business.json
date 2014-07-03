@@ -1,0 +1,24 @@
+{
+    "advertisers": {
+        "1314": {
+            "name": "ACME Industries",
+            "phone": [
+                {
+                    "type": "primary",
+                    "number": "1800 555 678"
+                },
+                {
+                    "type": "alternative",
+                    "number": "03 9677 5657"
+                },
+                {
+                    "type": "alternative",
+                    "number": "03 9677 1122"
+                }
+            ]
+        },
+        "17": {
+            "name": "Fletcher Consulting"
+        }
+    }
+}

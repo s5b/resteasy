@@ -1,0 +1,31 @@
+{
+  "advertisers": {
+    "1456": {
+      "id": "1456",
+      "name": "ACME Industries",
+      "phones": {
+        "3": { "id": "3", "type": "phone", "number": "03 9677 3455" },
+        "5": { "id": "5", "type": "phone", "number": "03 9677 3454" },
+        "7": { "id": "7", "type": "free", "number": "1800 456 789" },
+        "8": { "id": "8", "type": "fax", "number": "03 9677 3451" }
+      },
+      "email": {
+        "2": { "id": "2", "type": "main", "address": "info@example.com" },
+        "5": { "id": "5", "type": "sales", "address": "sales@example.com" },
+        "7": { "id": "7", "type": "support", "address": "support@example.com" }
+      }
+    },
+    "6548": {
+      "id": "6548",
+      "name": "Fletcher Consulting",
+      "phones": {
+        "1": { "id": "1", "type": "phone", "number": "02 8688 4467" },
+        "7": { "id": "7", "type": "free", "number": "1800 321 555" }
+      },
+      "email": {
+        "1": { "id": "1", "type": "main", "address": "info@fletcherc.com.au" },
+        "2": { "id": "2", "type": "orders", "address": "sales@fletcherc.com.au" }
+      }
+    }
+  }
+}
