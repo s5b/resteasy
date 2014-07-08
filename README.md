@@ -17,7 +17,7 @@ To run the application you will need to have ```nodejs``` installed.
 You can start the application using the following command line from the project *root*. This command line shows all the options; setting the listening port, and seeding the model from ```stdin```:
 
     cd server
-    node ./lib/server --port 5657 <./data/simple.json
+    node ./lib/server --port=5657 <./data/simple.json
     
 If you omit the:
 * ```--port``` command then the port will default to ```5656```;
